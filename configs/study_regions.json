@@ -1,0 +1,7 @@
+{
+  "mars_reference": {"name": "Gale Crater", "latitude": -5.4, "longitude": 137.8, "half_degree_crop": 5.0},
+  "earth_search_domain": {"name": "Atacama Desert", "bbox": [-70.0, -25.0, -68.0, -21.0], "cells_degree": 0.25},
+  "validation_sites": {"Maria Elena South": [-22.34, -69.66], "Yungay": [-24.08, -69.93]},
+  "thresholds": {"high": 0.7, "neutral_lower": 0.3},
+  "caution": "Prototype score; not a calibrated probability or final analog designation."
+}

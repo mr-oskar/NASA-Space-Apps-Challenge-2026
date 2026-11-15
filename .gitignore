@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# Large third-party raw products are reproducibly downloadable from source manifests.
+data/raw/mars/*.img
+data/raw/earth/*.tif
+data/raw/earth/*.zip
+data/processed/*.tif
+data/processed/*.npy
+data/reference_region/*.npy
+# Keep metadata, CSV outputs, figures, notebooks, and documentation in Git.

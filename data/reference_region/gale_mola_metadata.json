@@ -1,0 +1,13 @@
+{
+  "source": "MOLA MEGDR 16 pixels/degree",
+  "shape": [
+    160,
+    160
+  ],
+  "lat_min": -10.34375,
+  "lat_max": -0.40625,
+  "lon_min": 132.78125,
+  "lon_max": 142.71875,
+  "units": "m",
+  "dtype": "int16 big-endian"
+}

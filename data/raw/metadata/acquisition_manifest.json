@@ -1,0 +1,25 @@
+{
+  "study_regions": {
+    "mars_reference": {"name": "Gale Crater", "center_latitude": -5.4, "center_longitude": 137.8},
+    "earth_search_domain": {"name": "Atacama Desert", "bbox": [-70.0, -25.0, -68.0, -21.0]},
+    "validation_sites": {"Maria Elena South": [-22.34, -69.66], "Yungay": [-24.08, -69.93]}
+  },
+  "mars": {
+    "product": "MOLA MEGDR topography 16 pixels/degree",
+    "files": ["megt90n000eb.img", "megt90n000eb.xml", "megt90n000eb.hdr"],
+    "source": "https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/meg016/",
+    "measurement": "laser altimetry-derived topography",
+    "units": "meters",
+    "grid": "Mars equirectangular, 16 pixels/degree"
+  },
+  "earth": {
+    "product": "NASADEM HGT v001",
+    "tiles": ["s22w070", "s23w070", "s24w070", "s22w069", "s23w069", "s24w069"],
+    "source_catalog": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem",
+    "original_product_catalog": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-nasadem-hgt-001",
+    "measurement": "SRTM-derived DEM with ancillary reprocessing and control inputs",
+    "units": "meters",
+    "format": "Cloud-Optimized GeoTIFF"
+  },
+  "processing_note": "Raw source files are retained locally. Large third-party products are excluded from normal Git commits; download_data.py and this manifest provide reproducibility."
+}

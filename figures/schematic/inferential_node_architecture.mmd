@@ -1,0 +1,14 @@
+flowchart LR
+  A[Raw observations and metadata] --> B[Provenance and quality checks]
+  B --> C[Instrument-aware harmonization]
+  C --> D[Feature extraction: elevation, slope, roughness]
+  D --> E[Spatial cells, overlaps and neighborhood edges]
+  E --> F[Inferential-node graph]
+  F --> G[Support / contradiction / dependency analysis]
+  G --> H[Similarity and evidence coverage]
+  H --> I[Candidate confidence classes]
+  I --> J[Scientific decision trace]
+  G --> K[Neutral node T=0.5 when unresolved]
+  K --> F
+  L[New observations] --> M[Incremental update]
+  M --> F

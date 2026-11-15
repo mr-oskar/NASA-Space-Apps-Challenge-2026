@@ -1,0 +1,42 @@
+{
+  "collection": "nasadem",
+  "collection_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem",
+  "records": [
+    {
+      "tile": "s22w070",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s22w070.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 13988398
+    },
+    {
+      "tile": "s23w070",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s23w070.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 12672735
+    },
+    {
+      "tile": "s24w070",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s24w070.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 13965820
+    },
+    {
+      "tile": "s22w069",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s22w069.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 17579453
+    },
+    {
+      "tile": "s23w069",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s23w069.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 14832511
+    },
+    {
+      "tile": "s24w069",
+      "asset": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_s24w069.tif",
+      "signed_download": "Planetary Computer SAS at acquisition time",
+      "bytes": 12525526
+    }
+  ]
+}
